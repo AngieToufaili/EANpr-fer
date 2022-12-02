@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<title>
+		Prüfziffer EAN
+		</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script>
+			"use strict";
+			function rechne() {
+
+			var A1
+            A1= document.getElementById("idZ1").value;
+			var A2
+            A2= document.getElementById("idZ2").value;
+			var A3
+            A3= document.getElementById("idZ3").value;
+            var A4
+            A4= document.getElementById("idZ4").value;
+            var A5
+            A5= document.getElementById("idZ5").value;
+			var A6
+            A6= document.getElementById("idZ6").value;
+			var A7
+            A7= document.getElementById("idZ7").value;
+			var A8
+            A8= document.getElementById("idZ8").value;
+			var A9
+            A9= document.getElementById("idZ9").value;
+			var A10
+            A10= document.getElementById("idZ10").value;
+			var A11
+            A11= document.getElementById("idZ11").value;
+			var A12
+            A12= document.getElementById("idZ12").value;
+
+            var vErgebnis1 
+            var vErgebnis2
+            var vErgebnis3
+            var vErgebnis4
+            var vErgebnis5
+            var vErgebnis6
+            var vErgebnis7
+            var vErgebnis8
+            var vErgebnis9
+            var vErgebnis10
+            var vErgebnis12 
+            var vErgebnisinsgesamt 
+
+
+
+
+		    vErgebnis1 = A1 * 1 
+		    vErgebnis2 = A2 * 3 
+			vErgebnis3 = A3 * 1 
+		    vErgebnis4 = A4 * 3 
+            vErgebnis5 = A5 * 1
+			vErgebnis6 = A6 * 3
+			vErgebnis7 = A7 * 1
+			vErgebnis8 = A8 * 3 
+			vErgebnis9 = A9 * 1 
+			vErgebnis10 = A10 * 3 
+			vErgebnis11 = A11 * 1 
+			vErgebnis12 = A12 * 3 
+
+            vErgebnisinsgesamt = vErgebnis1 + vErgebnis2 + vErgebnis3 + vErgebnis4 + vErgebnis5 + vErgebnis6 + vErgebnis7 + vErgebnis9 +  vErgbnis10 + vErgebnis11 +vErgebnis12  
+
+
+			
+			}
+			
+			
+		</script>
+	
+</head>
+
+	<body>
+		<h1>Prüfziffer EAN</h1>
+		Europäische Artikelnummer: 
+		<input id="idZ1" type="text" maxlength="1" size="1" value="4">
+		<input id="idZ2" type="text" maxlength="1" size="1" value="2">
+		<input id="idZ3" type="text" maxlength="1" size="1" value="6">
+		<input id="idZ4" type="text" maxlength="1" size="1" value="0">
+		<input id="idZ5" type="text" maxlength="1" size="1" value="0">
+		<input id="idZ6" type="text" maxlength="1" size="1" value="7">
+		<input id="idZ7" type="text" maxlength="1" size="1" value="4">
+		<input id="idZ8" type="text" maxlength="1" size="1" value="8">
+		<input id="idZ9" type="text" maxlength="1" size="1" value="4">
+		<input id="idZ10" type="text" maxlength="1" size="1" value="2">
+		<input id="idZ11" type="text" maxlength="1" size="1" value="3">
+		<input id="idZ12" type="text" maxlength="1" size="1" value="8">
+		
+		
+		</br> 
+		</br> 
+		<button onClick="rechne();">Rechne!</button>
+		</br> 
+		</br> 
+		<div id="idAusgabeHTML"></div>
+	</body>
+</html>
